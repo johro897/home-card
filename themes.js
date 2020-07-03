@@ -37,13 +37,13 @@ export const THEMES = {
         ],
       },
       'garage': {
-        'open': [
+        'on': [
           {
             'image': 'garage-open.png',
             'style': { 'width': '21%', 'left': '73.5%', 'top': '67.5%', 'z-index': '10' },
           },
         ],
-        'closed': [
+        'off': [
           {
           'image': 'garage-close.png',
           'style': { 'width': '21%', 'left': '73.5%', 'top': '67.5%', 'z-index': '10' },
@@ -82,10 +82,7 @@ export const THEMES = {
       },
       'downstairs_light': {
         'on': [
-          {
-            'image': 'window-light.png',
-            'style': { 'width': '6%', 'left': '56%', 'top': '61%', 'z-index': '10' },
-          },
+        
           {
             'image': 'window-light.png',
             'style': { 'width': '6%', 'left': '17%', 'top': '61%', 'z-index': '10' },
@@ -96,10 +93,7 @@ export const THEMES = {
           },
         ],
         'off': [
-          {
-            'image': 'window-dark.png',
-            'style': { 'width': '6%', 'left': '56%', 'top': '61%', 'z-index': '10' },
-          },
+        
           {
             'image': 'window-dark.png',
             'style': { 'width': '6%', 'left': '17%', 'top': '61%', 'z-index': '10' },
@@ -107,6 +101,21 @@ export const THEMES = {
           {
             'image': 'window-dark.png',
             'style': { 'width': '6%', 'left': '25%', 'top': '61%', 'z-index': '10' },
+          },
+        ]
+      },
+	  'office_light': {
+        'on': [
+          {
+            'image': 'window-light.png',
+            'style': { 'width': '6%', 'left': '56%', 'top': '61%', 'z-index': '10' },
+          },
+
+        ],
+        'off': [
+          {
+            'image': 'window-dark.png',
+            'style': { 'width': '6%', 'left': '56%', 'top': '61%', 'z-index': '10' },
           },
         ]
       },
@@ -204,13 +213,13 @@ export const THEMES = {
         ],
       },
       'garage': {
-        'open': [
+        'on': [
           {
             'image': 'garage-open.png',
             'style': { 'width': '23%', 'height': '34%', 'left': '61.2%', 'top': '57.5%', 'z-index': '10' },
           },
         ],
-        'closed': [
+        'off': [
           {
           'image': 'garage-close.png',
           'style': { 'width': '23%', 'height': '34%', 'left': '61.2%', 'top': '57.5%', 'z-index': '10' },
@@ -218,13 +227,13 @@ export const THEMES = {
         ],
       },
       'garage2': {
-        'open': [
+        'on': [
 		  {
             'image': 'garage-open.png',
             'style': { 'width': '13%', 'height': '34%', 'left': '83.7%', 'top': '57.5%', 'z-index': '10', 'filter': 'contrast(80%)' },
           }
         ],
-        'closed': [
+        'off': [
 		  {
             'image': 'garage-close.png',
             'style': { 'width': '13%', 'height': '34%', 'left': '83.7%', 'top': '57.5%', 'z-index': '10', 'filter': 'contrast(80%)' },
